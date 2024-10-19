@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       // Can be overridden by NUXT_PUBLIC_HELLO_TEXT environment variable
-      helloText: process.env.NUXT_PUBLIC_HELLO_TEXT,
+      helloText: 'Go easy on me...',
       apiSecret: '123'
     }
   },

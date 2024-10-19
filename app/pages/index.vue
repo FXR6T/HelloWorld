@@ -13,7 +13,7 @@ const color = useState('color', () => colors[Math.floor(Math.random() * colors.l
       {{ runtimeConfig.public.apiSecret }} 
     </h2>
     <h3>
-      Kill Jaffle, Burn it with fire
+      Kill Latorres, Burn them with fire
     </h3>
     <NuxtLink to="/" external>
       Jaffle is shithouse

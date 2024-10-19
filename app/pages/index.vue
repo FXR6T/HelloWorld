@@ -7,7 +7,7 @@ const color = useState('color', () => colors[Math.floor(Math.random() * colors.l
 <template>
   <div class="centered">
     <h1 :style="{ color }">
-      {{ runtimeConfig.public.helloText }}
+      {{ runtimeConfig.public.helloText }} FUCKWIT
     </h1>
     <h2 :style="{ color }">
       {{ runtimeConfig.public.apiSecret }} 

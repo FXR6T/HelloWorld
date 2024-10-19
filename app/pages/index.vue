@@ -9,6 +9,9 @@ const color = useState('color', () => colors[Math.floor(Math.random() * colors.l
     <h1 :style="{ color }">
       {{ runtimeConfig.public.helloText }}
     </h1>
+    <h2 :style="{ color }">
+      {{ runtimeConfig.public.apiSecret }} 
+    </h2>
     <NuxtLink to="/" external>
       fresho is shithouse
     </NuxtLink>

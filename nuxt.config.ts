@@ -17,7 +17,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       // Can be overridden by NUXT_PUBLIC_HELLO_TEXT environment variable
-      helloText: 'Hello from the Other Side, I must have called a thousand times!!!! from Adele - Hello 👋'
+      helloText: 'Hello from the Other Side, I must have cried a thousand times!!!! from Adele - Hello 👋',
+      apiSecret: '123'
     }
   },
 

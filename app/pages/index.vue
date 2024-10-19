@@ -12,6 +12,9 @@ const color = useState('color', () => colors[Math.floor(Math.random() * colors.l
     <h2 :style="{ color }">
       {{ runtimeConfig.public.apiSecret }} 
     </h2>
+    <h3>
+      Kill Jaffle, Burn it with fire
+    </h3>
     <NuxtLink to="/" external>
       fresho is shithouse
     </NuxtLink>

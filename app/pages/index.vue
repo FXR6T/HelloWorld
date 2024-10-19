@@ -16,7 +16,7 @@ const color = useState('color', () => colors[Math.floor(Math.random() * colors.l
       Kill Jaffle, Burn it with fire
     </h3>
     <NuxtLink to="/" external>
-      fresho is shithouse
+      Jaffle is shithouse
     </NuxtLink>
   </div>
 </template>
